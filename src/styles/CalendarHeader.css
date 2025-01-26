@@ -1,0 +1,60 @@
+.CalendarHeader__container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #f9fafd;
+}
+
+.CalendarHeader__today-button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.CalendarHeader__today-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.CalendarHeader__today-button:disabled {
+  background-color: #f5f7f8;
+  color: #c7c9ca;
+  border-color: inherit;
+  cursor: not-allowed;
+}
+
+.CalendarHeader__current-date {
+  margin: 0;
+}
+
+.CalendarHeader__navigation-container {
+  display: flex;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.CalendarHeader__navigation-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+  padding: 4px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.CalendarHeader__navigation-button:last-child {
+  margin-right: 0;
+}
+
+.CalendarHeader__navigation-button:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,103 @@
+.EventModal__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.EventModal__wrapper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 500px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.EventModal__header {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.EventModal__close-button {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.EventModal__delete-button {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.EventModal__close-button:hover,
+.EventModal__delete-button:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.EventModal__input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.EventModal__input-label {
+  font-size: 14px;
+  color: #808080;
+}
+
+.EventModal__title-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.EventModal__time-input {
+  width: fit-content;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.EventModal__time-separator {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.EventModal__save-button {
+  display: flex;
+  align-self: flex-end;
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #3498DB;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+
+.EventModal__save-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

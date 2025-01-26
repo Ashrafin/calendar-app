@@ -1,0 +1,13 @@
+.CalendarBody__container {
+  width: 100%;
+  padding: 0 10px;
+  background-color: #f9fafd;
+}
+
+.CalendarBody__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  border: 1px solid #e1e4e6;
+  overflow: hidden;
+}

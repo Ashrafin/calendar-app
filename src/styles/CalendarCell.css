@@ -1,0 +1,63 @@
+.CalendarCell__item {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 calc(100% / 7);
+  align-items: center;
+  width: calc(100% / 7);
+  height: 160px;
+  padding: 5px 0;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+.CalendarCell__date-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.CalendarCell__date-container.active {
+  background-color: #3498DB;
+}
+
+.CalendarCell__date {
+  width: fit-content;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+}
+
+.CalendarCell__date-container.active > .CalendarCell__date {
+  color: #fff;
+}
+
+.CalendarCell__events-wrapper {
+  width: 98%;
+  margin: 5px 0;
+  overflow-y: scroll;
+}
+
+.CalendarCell__event {
+  width: 100%;
+  padding: 2px 4px;
+  margin-bottom: 2px;
+  background-color: #3498DB;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.CalendarCell__event:last-child {
+  margin-bottom: 0;
+}
+
+.CalendarCell__event-title {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #fff;
+  overflow-x: hidden;
+}

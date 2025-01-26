@@ -1,0 +1,19 @@
+.CalendarDays__container {
+  display: flex;
+  flex: 1 0 calc(100% / 7);
+  padding: 0 10px;
+}
+
+.CalendarDays__day-wrapper {
+  display: inherit;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.CalendarDays__day {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+}
