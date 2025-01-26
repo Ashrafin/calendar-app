@@ -1,13 +1,19 @@
 # Vite + React Calendar App
 
-This project is a simple React Calendar application bootstrapped using [Vite](https://vitejs.dev/), a fast build tool and development server.
+A modern React-based calendar application built with Vite, using TypeScript and best practices for development.
 
 ## Features
 
-- ⚡ **Fast development**: Hot Module Replacement (HMR) for an efficient dev experience.
-- 🛠️ **Modern stack**: Built with Vite and React.
-- 💅 **Styling**: Add your preferred CSS, Tailwind, or other styling libraries.
-- ✅ **Easy to extend**: Quickly add features and libraries.
+- **Navigate through time**:
+    - Seamlessly move between months and years to explore dates across the calendar.
+    - Quickly return to the current day with a single click.
+- **Event Management**:
+    - Create events for any day and set the time to keep track of your schedule.
+    - Update existing events to reflect changes in your plans.
+    - Delete events effortlessly when they're no longer needed.
+- **User-Friendly Interface**:
+    - View all days of a selected month at a glance.
+    - Intuitive design for hassle-free interaction and event handling.
 
 ## Getting Started
 
@@ -16,15 +22,15 @@ Follow these instructions to set up the project on your local machine.
 ### Prerequisites
 
 Make sure you have the following installed:
-- [Node.js](https://nodejs.org/) (v16 or later recommended)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [node.js](https://nodejs.org/) (v16 or later recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ### Installation
 
 1. **Clone the repository**:
     ```
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/Ashrafin/calendar-app.git
+    cd calendar-app
     ```
    
 2. **Install dependencies**:
